@@ -5,12 +5,15 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "JetBrains Mono Medium:pixelsize=20:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-/*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
-/*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
+    "Hack Nerd Font:pixelsize=20:antialias=true:autohint=true", // Powerline
+    "IPAGothic:pixelsize=20:antialias=true:autohint=true", // Japanese
+    "Symbola:pixelsize=20:antialias=true:autohint=true", // Unicode
+    "Fira Code:pixelsize=20:antialias=true:autohint=true" // Unicode
 };
+
 
 static int borderpx = 2;
 
